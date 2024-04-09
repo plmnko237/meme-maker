@@ -54,6 +54,7 @@ input[type="color"] {
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 20px;
+  background-color: #fff;
 }
 .color-option {
   width: 50px;
