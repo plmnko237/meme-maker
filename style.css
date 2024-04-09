@@ -108,7 +108,8 @@ input[type="color"] {
   height: 30px;
   outline: none;
   border: none;
-  border-bottom: 3px solid #ddd;
+  border-bottom: 2px solid #cccccc;
+  background-color: transparent;
   padding-left: 10px;
   font-size: 16px;
 }
