@@ -5,13 +5,32 @@
 body {
   width: 100%;
   height: fit-content;
+  background-color: #f8fcff;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+h1 + p {
+  text-align: center;
+}
+.canvas-wrap {
+  width: fit-content;
+  height: fit-content;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
 }
 canvas {
   display: block;
-  margin: 50px auto;
+  margin: 0 auto;
   width: 800px;
   height: 800px;
-  border: 1px solid #ddd;
+  border: 1px solid #eee;
+  background-color: #fff;
 }
 input[type="range"] {
   display: block;
@@ -19,7 +38,6 @@ input[type="range"] {
 }
 input[type="color"] {
   display: block;
-
   border: none;
   background-color: transparent;
   width: 48px;
