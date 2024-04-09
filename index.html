@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEME Maker</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <canvas></canvas>
+    <input type="range" id="line-width" min="1" max="10" value="5" step="0.5" />
+    <div class="mode-box">
+      <button id="mode-btn">채우기</button>
+      <input type="color" id="color" />
+      <button id="eraser-btn">부분 지우개</button>
+      <button id="destroy-btn">모두 지우기</button>
+      <input type="file" accept="image/*" id="file" />
+      <button id="file-btn">파일 선택</button>
+      <button id="save">이미지 저장</button>
+    </div>
+    <div class="mode-box">
+      <input
+        type="text"
+        placeholder="여기에 글을 작성하고 화면을 더블클릭 해보세요."
+        id="text"
+      />
+    </div>
+    <div class="color-box">
+      <div
+        class="color-option"
+        style="background-color: #c0392b"
+        data-color="#c0392b"
+      ></div>
+      <div
+        class="color-option"
+        style="background-color: #e74c3c"
+        data-color="#e74c3c"
+      ></div>
+
+      <div
+        class="color-option"
+        style="background-color: #e67e22"
+        data-color="#e67e22"
+      ></div>
+      <div
+        class="color-option"
+        style="background-color: #f39c12"
+        data-color="#f39c12"
+      ></div>
+      <div
+        class="color-option"
+        style="background-color: #f1c40f"
+        data-color="#f1c40f"
+      ></div>
+      <div
+        class="color-option"
+        style="background-color: #2ecc71"
+        data-color="#2ecc71"
+      ></div>
+      <div
+        class="color-option"
+        style="background-color: #1abc9c"
+        data-color="#1abc9c"
+      ></div>
+      <div
+        class="color-option"
+        style="background-color: #3498db"
+        data-color="#3498db"
+      ></div>
+      <div
+        class="color-option"
+        style="background-color: #9b59b6"
+        data-color="#9b59b6"
+      ></div>
+
+      <div
+        class="color-option"
+        style="background-color: #34495e"
+        data-color="#34495e"
+      ></div>
+      <div
+        class="color-option"
+        style="background-color: #2c3e50"
+        data-color="#2c3e50"
+      ></div>
+      <div
+        class="color-option"
+        style="background-color: #ecf0f1"
+        data-color="#ecf0f1"
+      ></div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

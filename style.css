@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: fit-content;
+}
+canvas {
+  display: block;
+  margin: 50px auto;
+  width: 800px;
+  height: 800px;
+  border: 1px solid #ddd;
+}
+input[type="range"] {
+  display: block;
+  margin: 0 auto;
+}
+input[type="color"] {
+  display: block;
+
+  border: none;
+  background-color: transparent;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  outline: none;
+}
+.color-box {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  gap: 16px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+}
+.color-option {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.mode-box {
+  margin: 30px auto;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.mode-box button {
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  border: none;
+  background-color: #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+.mode-box button:first-child:hover {
+  background-color: slateblue;
+  color: white;
+}
+.mode-box button:nth-of-type(2):hover {
+  background-color: tomato;
+  color: white;
+}
+.mode-box button:nth-of-type(3):hover {
+  background-color: crimson;
+  color: white;
+}
+.mode-box button:nth-of-type(4):hover {
+  background-color: steelblue;
+  color: white;
+}
+.mode-box button:last-child:hover {
+  background-color: sandybrown;
+  color: white;
+}
+#file {
+  display: none;
+}
+#text {
+  width: 500px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid #ddd;
+  padding-left: 10px;
+  font-size: 16px;
+}
